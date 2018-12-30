@@ -1,7 +1,5 @@
 import h5py
 import numpy as np
-import matplotlib.pyplot as plt
-import math
 
 def load_dataset():
     train_dataset = h5py.File('data/train_happy.h5', "r")
