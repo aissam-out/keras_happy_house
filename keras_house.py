@@ -106,7 +106,3 @@ print(happyModel.predict(x))
 
 print("The happyModel summary ...")
 happyModel.summary()
-
-print("Plot and save happyModel (visually) ...")
-plot_model(happyModel, to_file='HappyModel.png')
-SVG(model_to_dot(happyModel).create(prog='dot', format='svg'))
