@@ -22,8 +22,16 @@ Source: This dataset is gathered from the Deep Learning Specialization - Convolu
 
  ```input_1 : InputLayer``` --> ```zero_padding2d_1 : ZeroPadding2D``` --> ```conv0 : Conv2D```
  
- ```bn0 : BatchNormalization```
+ --> ```bn0 : BatchNormalization``` -->
  
  ```activation_1 : Activation``` --> ```max_pool : MaxPooling2D``` --> ```flatten_1 : Flatten```
  
- ```fc : Dense```
+ --> ```fc : Dense```
+
+## Evaluation
+
+Number of epochs = 40
+
+Train accuracy = 0.9983
+
+Test accuracy = 0.9733
